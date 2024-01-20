@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Amidon's Portfolio</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-image: url('https://wallpaperset.com/w/full/5/4/f/225692.jpg');
+            background-size: cover;
+            color: #080a6b;
+            text-align: center;
+            padding: 50px;
+            margin-bottom: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #080a6b;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #006699;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #006699;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        pre {
+            margin-top: 10px;
+            font-family: 'Courier New', monospace;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #006699;
+            color: #fff;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #006699;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio!</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Recently separated Air Force Veteran with an ACTIVE SECRET CLEARANCE and a decade of security experience, transitioning expertise from Physical Security to Cybersecurity. Possesses key industrial certifications, alongside a Master's in Psychology and Specializations in Computer Science. Proven leadership in managing security operations, developing training programs, and conducting assessments. Focused on leveraging a diverse skill set to excel in the dynamic field of Cybersecurity, adept at leading teams, fostering collaboration, and implementing effective security strategies to safeguard against digital threats. Seeking a challenging cybersecurity role to apply honed skills in risk mitigation and compliance within the cyber landscape.</p>
+
+            <ul>
+                <li>Skills: HTML, CSS, JavaScript, Python</li>
+                <li>Interests: Web development, problem-solving, learning new things</li>
+                <li>Education: MA. in Psychology, American Military University</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Here are some projects I've worked on:</p>
+
+            <ul>
+                <li><a href="https://tryhackme.com/p/Pnodima" target="_blank">TryHackMe Profile</a></li>
+                <li><a href="C:\Users\pnodima\Downloads\HTB Academy Student Transcript.pdf" target="_blank">HackTheBox Academy Profile</a></li>
+                <li><a href="https://github.com/pnodima" target="_blank">External Project (GitHub)</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out if you have any questions or opportunities!</p>
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+
+            <pre>Alternatively, email me at: paul.amidon@outlook.com</pre>
+        </section>
+
+        <table>
+            <caption>Educational Background</caption>
+            <thead>
+                <tr>
+                    <th colspan="7" style="text-align: center;">Education</th>
+                </tr>
+                <tr>
+                    <th rowspan="1">Year</th>
+                    <th rowspan="1">School</th>
+                    <th rowspan="1">Degree</th>
+                    <th rowspan="1">Major</th>
+                    <th rowspan="1">Specialization</th>
+                    <th rowspan="1">School Location</th>
+                    <th rowspan="1">Degree Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024</td>
+                    <td>Saint Martins University</td>
+                    <td>Certificate</td>
+                    <td>Computer Science</td>
+                    <td>Cloud Application Design</td>
+                    <td>Lacey, WA</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Saint Martins University</td>
+                    <td>Certificate</td>
+                    <td>Computer Science</td>
+                    <td>Cybersecurity</td>
+                    <td>Lacey, WA</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>American Military University</td>
+                    <td>Master of Arts</td>
+                    <td>Psychology</td>
+                    <td>Military & Organizational Leadership</td>
+                    <td>Charles Town, WV</td>
+                    <td>Graduated</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>American Military University</td>
+                    <td>Bachelor of Arts</td>
+                    <td>Psychology</td>
+                    <td>General</td>
+                    <td>Charles Town, WV</td>
+                    <td>Graduated</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Community College of the Air Force</td>
+                    <td>Applied Associates of Science</td>
+                    <td>Criminal Justice</td>
+                    <td>N/A</td>
+                    <td>Montgomery, AL</td>
+                    <td>Graduated</td>
+                </tr>
+            </tbody>
+        </table>
+
+    <footer>
+        &copy; 2024 Paul Amidon
+    </footer>
+
+</body>
+</html>
